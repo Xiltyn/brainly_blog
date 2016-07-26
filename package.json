@@ -1,0 +1,20 @@
+{
+  "name": "brainly_blog",
+  "version": "1.0.0",
+  "description": "Educational insights straight from students and teachers! ",
+  "main": "core.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "brainly_blog"
+  },
+  "author": "xiltyn",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.14.0",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2"
+  }
+}
