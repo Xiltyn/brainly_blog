@@ -1,0 +1,69 @@
+@import 'partials/css-reset';
+@import 'partials/grid';
+
+
+#header {
+  background-image: url('assets/img/header_background.jpg');
+  background-position: 0 -200px;
+}
+.grid-full {
+  .grid--hole--center {
+    width: 1000px;
+    height: 600px;
+    margin-left: -500px;
+    margin-top: -300px;
+  }
+}
+.grid-1200 {
+  .grid-1200-full {
+    height: 500px;
+    .grid--hole--center {
+      height: 300px;
+      width: 300px;
+      margin-left: -150px;
+      margin-top: -150px;
+    }
+  }
+  .grid-1200-1to1 {
+    height: 500px;
+    .grid-1200-1to1--left {
+      .grid--hole--center {
+        height: 300px;
+        width: 300px;
+        margin-left: -150px;
+        margin-top: -150px;
+      }
+    }
+    .grid-1200-1to1--right {
+      .grid--hole--center {
+        height: 300px;
+        width: 300px;
+        margin-left: -150px;
+        margin-top: -150px;
+      }
+    }
+  }
+  .grid-1200-1to2 {
+    height: 500px;
+    .grid-1200-1to2--left {
+
+    }
+    .grid-1200-1to2--right {
+      .grid--hole--center {
+        height: 300px;
+        width: 300px;
+        margin-left: -150px;
+        margin-top: -150px;
+      }
+    }
+  }
+  .grid-1200-2to1 {
+    height: 500px;
+    .grid-1200-2to1--left {
+
+    }
+    .grid-1200-2to1--right {
+
+    }
+  }
+}
